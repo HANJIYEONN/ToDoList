@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Something</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="js-clock">
+    <h1>00:00</h1>
+  </div>
+  <form class="js-form form">
+    <div class="mx-auto mt-3 input-group mb-3" style="width: 400px;">
+      <input type="text" class="form-control" placeholder="What is your name?" aria-label="What is your name?"
+        aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">Do</span>
+      </div>
+    </div>
+  </form>
+  <h4 class="js-greetings greetings"></h4>
+  <form class="js-toDoForm">
+    <div class="mx-auto mt-3 input-group mb-3" style="width: 400px;">
+      <input type="text" class="form-control" placeholder="Write a to do" aria-label="Write a to do"
+        aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">Do</span>
+      </div>
+    </div>
+  </form>
+  <ul class="js-toDoList"></ul>
+  <spanc class="js-weather"></spanc>
+  <script src="clock.js"></script>
+  <script src="greeting.js"></script>
+  <script src="todo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
+</body>
